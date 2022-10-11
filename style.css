@@ -20,16 +20,23 @@ h2 {
 p {
     color: dimgray;
 }
+section {
+    height: 500px;
+    clear: both;
+}
 .top-banner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
-    height: 500px;
 }
 .dream-area {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
-    height: 500px;
+}
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
 .half-width {
     width: 40%;
