@@ -38,6 +38,15 @@ section {
     background-repeat: no-repeat;
     background-position: left;
 }
+.experience-area>h2 {
+    font-size: 40px;
+    text-align: center;
+}
+.experience {
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.7);
+}
 .half-width {
     width: 40%;
     float: left;
@@ -54,4 +63,16 @@ section {
     border-radius: 5px;
     color: #fff;
     font-weight: 700;
+}
+#fullstack {
+    border-left: 7px solid;
+    border-image: linear-gradient(lightsalmon,red) 1;
+}
+#baby {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan) 1;
+}
+footer {
+    text-align: center;
+    padding: 20px 0;
 }
